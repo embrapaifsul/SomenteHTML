@@ -10,12 +10,16 @@ body {
   height: 100vh;
 }
 
+.footer{
+  padding: 20px;
+}
+
 .container {
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 400px;
+  width: 80%;
   max-width: 100%;
 }
 
@@ -31,7 +35,7 @@ h1 {
   padding: 0;
   margin: 0;
   display: flex;
-  flex-direction: column;
+  flex-direction: line;
   gap: 10px;
 }
 
@@ -77,6 +81,11 @@ h1 {
 .btn.edit {
   background-color: #ffc107;
   color: #000;
+}
+
+.btn.add {
+  color: #fff;
+  background-color:#1c0df3
 }
 
 .btn.delete {

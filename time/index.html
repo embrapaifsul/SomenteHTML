@@ -13,11 +13,15 @@
   <div class="container">
     <nav class="menu">
       <ul>
-        <li><a href="../index.html" class="btn">Home</a></li>
+        <li><a href="../index.html" class="btn"><i class="fa fa-home" ></i>&nbsp;Home</a></li>
       </ul>
     </nav>
     <h1>Listagem de Times</h1>
- 
+    <div class="search">
+      <form method="post">
+        <input type="text" name="pesquisa" placeholder="digite a busca.."><button type="submit"><i class="fa fa-search" aria-hidden="true"></i>&nbsp;Pesquisar</button>
+      </form>
+    </div>
     <!-- Tabela de Times -->
     <table>
       <thead>
@@ -34,8 +38,8 @@
           <td>Time A</td>
           <td>Estádio A</td>
           <td>
-            <a href="edit.html?id=1" class="btn edit"><i class="fas fa-edit"></i>Editar</a>
-            <button class="btn delete"  onclick="confirmarExclusao()"><i class="fas fa-trash"></i> Excluir</button>
+            <a href="edit.html?id=1" class="btn edit"><i class="fas fa-edit"></i>&nbsp;Editar</a>
+            <button class="btn delete"  onclick="confirmarExclusao()"><i class="fas fa-trash"></i>&nbsp; Excluir</button>
           </td>
         </tr>
         <tr>
@@ -43,14 +47,14 @@
           <td>Time B</td>
           <td>Estádio B</td>
           <td>
-            <a href="edit.html?id=2" class="btn edit"><i class="fas fa-edit"></i>Editar</a>
-            <button class="btn delete" onclick="confirmarExclusao()"><i class="fas fa-trash"></i>Excluir</button>
+            <a href="edit.html?id=2" class="btn edit"><i class="fas fa-edit"></i>&nbsp;Editar</a>
+            <button class="btn delete" onclick="confirmarExclusao()"><i class="fas fa-trash"></i>&nbsp;Excluir</button>
           </td>
         </tr>
       </tbody>
     </table>
     <div class="footer">
-      <a href="add.html" class="btn add"><i class="fas fa-add"></i>Adicionar</a>
+      <a href="add.html" class="btn add"><i class="fas fa-add"></i>&nbsp;Adicionar</a>
     </div>
   </div>
 
